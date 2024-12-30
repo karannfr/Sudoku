@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="sudoku.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku</title>
+</head>
+<body>
+  <table>
+    <tr class="row0">
+      <td class="cell00" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell01" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell02" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell03" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell04" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell05" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell06" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell07" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell08" id="cell" onclick="selectCell(this.className)"></td>
+    </tr>
+    <tr class="row1">
+      <td class="cell10" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell11" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell12" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell13" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell14" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell15" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell16" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell17" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell18" id="cell" onclick="selectCell(this.className)"></td>
+    </tr>
+    <tr class="row2">
+      <td class="cell20" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell21" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell22" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell23" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell24" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell25" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell26" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell27" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell28" id="cell" onclick="selectCell(this.className)"></td>
+    </tr>
+    <tr class="row3">
+      <td class="cell30" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell31" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell32" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell33" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell34" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell35" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell36" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell37" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell38" id="cell" onclick="selectCell(this.className)"></td>
+    </tr>
+    <tr class="row4">
+      <td class="cell40" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell41" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell42" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell43" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell44" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell45" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell46" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell47" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell48" id="cell" onclick="selectCell(this.className)"></td>
+    </tr>
+    <tr class="row5">
+      <td class="cell50" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell51" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell52" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell53" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell54" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell55" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell56" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell57" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell58" id="cell" onclick="selectCell(this.className)"></td>
+    </tr>
+    <tr class="row6">
+      <td class="cell60" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell61" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell62" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell63" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell64" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell65" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell66" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell67" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell68" id="cell" onclick="selectCell(this.className)"></td>
+    </tr>
+    <tr class="row7">
+      <td class="cell70" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell71" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell72" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell73" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell74" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell75" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell76" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell77" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell78" id="cell" onclick="selectCell(this.className)"></td>
+    </tr>
+    <tr class="row8">
+      <td class="cell80" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell81" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell82" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell83" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell84" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell85" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell86" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell87" id="cell" onclick="selectCell(this.className)"></td>
+      <td class="cell88" id="cell" onclick="selectCell(this.className)">1</td>
+    </tr>
+  </table>
+  <div class="numbers">
+    <button onclick="playMove(this.innerHTML)">1</button>
+    <button onclick="playMove(this.innerHTML)">2</button>
+    <button onclick="playMove(this.innerHTML)">3</button>
+    <button onclick="playMove(this.innerHTML)">4</button>
+    <button onclick="playMove(this.innerHTML)">5</button>
+    <button onclick="playMove(this.innerHTML)">6</button>
+    <button onclick="playMove(this.innerHTML)">7</button>
+    <button onclick="playMove(this.innerHTML)">8</button>
+    <button onclick="playMove(this.innerHTML)">9</button>
+  </div>
+  <script src="sudoku.js"></script>
+</body>
+</html>

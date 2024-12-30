@@ -1,0 +1,57 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(ALS_Hauss_Medium.457ccec7.otf);
+}
+body{
+  font-family: myFirstFont;
+}
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px solid #3d536a;
+}
+td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: #3d536a;
+}
+.row2, .row5{
+    border-bottom: 2px solid #3d536a;
+}
+.row0, .row1, .row3, .row4, .row6, .row7{
+    border-bottom: 1px solid #3d536a74;
+}
+.cell02, .cell05, .cell12, .cell15, .cell22, .cell25, .cell32, .cell35, .cell42, .cell45, .cell52, .cell55, .cell62, .cell65, .cell72, .cell75, .cell82, .cell85{
+    border-right: 2px solid #3d536a;
+}
+.cell00, .cell01, .cell03, .cell04, .cell06, .cell07, .cell08, .cell10, .cell11, .cell13, .cell14, .cell16, .cell17, .cell18, .cell20, .cell21, .cell23, .cell24, .cell26, .cell27, .cell28, .cell30, .cell31, .cell33, .cell34, .cell36, .cell37, .cell38, .cell40, .cell41, .cell43, .cell44, .cell46, .cell47, .cell48, .cell50, .cell51, .cell53, .cell54, .cell56, .cell57, .cell58, .cell60, .cell61, .cell63, .cell64, .cell66, .cell67, .cell68, .cell70, .cell71, .cell73, .cell74, .cell76, .cell77, .cell78, .cell80, .cell81, .cell83, .cell84, .cell86, .cell87, .cell88{
+    border-right: 1px solid #3d536a74;
+}
+
+.numbers{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.numbers > button{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: #325aaf;
+    background-color: #f0f0f0;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.numbers > button:hover{
+    background-color: #b6defa;
+}
