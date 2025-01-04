@@ -7,6 +7,8 @@
   <title>Sudoku</title>
 </head>
 <body>
+  <div class="mistakes">Mistakes: 0/3</div>
+  <div class="time">00:00</div>
   <table>
     <tr class="row0">
       <td class="cell00" id="cell" onclick="selectCell(this.className)"></td>
@@ -118,6 +120,18 @@
     <button onclick="playMove(this.innerHTML)">7</button>
     <button onclick="playMove(this.innerHTML)">8</button>
     <button onclick="playMove(this.innerHTML)">9</button>
+  </div>
+  <div class="overlay"></div>
+  <div class="gameover">
+    <p>Game Over</p>
+    <p>You made 3 mistakes</p>
+    <button onclick="secondChance()">Second Chance</button>
+    <button onclick="initialize()">New Game</button>
+  </div>
+  <div class="gamewon">
+    <p>Game Won</p>
+    <p class="recordTime"></p>
+    <button onclick="initialize()">New Game</button>
   </div>
   <script src="sudoku.js"></script>
 </body>
